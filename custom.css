@@ -1,109 +1,128 @@
 .seconddiv{
-    margin-bottom: 100px;
-    padding: 3px;
-    padding-left: 5px;
-    padding-right: 15px;
-    letter-spacing: 3px;
-    font-size: 12px;
-    background-color:#282b3a;
+  margin-bottom: 100px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 15px;
+  letter-spacing: 3px;
+  font-size: 12px;
+  background-color:#282b3a;
 }
-
+.mood-left{
+  position:relative;
+  float: left;
+  font-size:18px;
+}
+.sort-right{
+  position:relative;
+  float: right;
+  font-size:14px;
+}
+.fcontent{
+  position: relative;
+  color: #a19f9f;
+  font-weight: bold;
+  margin-top: -130px;
+  z-index: 100;
+}
 .thirddiv{
-    border-bottom: 1px solid #3a3b49;
-    padding-bottom: 15px;
-
+  border-bottom: 1px solid #3a3b49;
+  padding-bottom: 15px;
+  position: relative;
+z-index: 20;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1d1e32;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d1e32;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: #575b6b;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: #575b6b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
-    color: #dddde0;
-    border-bottom: 3px solid #e1255a;
+  color: #dddde0;
+  border-bottom: 3px solid #e1255a;
 }
 .float{
-    float:right;
+  float:right;
 }
 body {margin:0}
 
 .icon-bar {
-    width: 60px;
-    background-color: #10111e;
+  width: 60px;
+  background-color: #10111e;
 }
 
 .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: #ed265d;
-    font-size: 36px;
-    height: 60px;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #ed265d;
+  font-size: 36px;
+  height: 60px;
 
 }
 
 .icon-bar a:hover {
-    background-color:#ed265d;
-    color:white;
+  background-color:#ed265d;
+  color:white;
 }
 
 .aactive {
-    background-color: #ed265d !important;
-    color:white !important;
+  background-color: #ed265d !important;
+  color:white !important;
 }
 .img{
-    margin-top: -300px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 60px;
+  margin-top: -315px;
+  margin-right: 100px;
+  z-index: -99;
+  width: 100%;
 }
 .icon{
-    width: 60px;
-    height:50px;
+  width: 60px;
+  height:50px;
 }
 .content{
-   text-align: center;
-    color: #686977;
-    font-size: 10px;
-    padding-left: 625px;
-    margin-top: -81px;
+  text-align: center !important;
+  color: #686977;
+  font-size: 10px;
+  padding-left: 625px;
+  margin-top: -81px;
 }
 .contents{
-    text-align: center !important;
-    color: #fdfdfd;
-    font-size: 40px;
-    margin: 407px;
-    //padding-left: 407px;
-    margin-top: -5px;
+  text-align: center !important;
+  color: #fdfdfd;
+  font-size: 40px;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  margin-top: -5px;
 
 }
 .contents2{
-    text-align: center;
-    color: #808089;
-    font-size: 15px;
-    padding-left: 407px;
-    margin-top: -5px;
-    letter-spacing: normal;
+  text-align: center;
+  color: #cacaca;
+  font-size: 15px;
+  margin-top: -5px;
+  position: relative;
+  z-index: 100;
+  letter-spacing: normal;
 }
 .shareclass{
   text-align: center;
